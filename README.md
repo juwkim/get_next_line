@@ -49,7 +49,7 @@ The function is written in C language and thus needs the **C compiler** and some
 $ git clone https://github.com/juwkim/get_next_line
 ```
 
-- To make compile ↙️
+- To compile ↙️
 ```shell
 cc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c "main.c"
 ```
