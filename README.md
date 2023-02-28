@@ -40,19 +40,21 @@ For more detailed information, look at the [**subject of this project**](https:/
 
 ### Requirements
 
-The function is written in C language and thus needs the **`c` compiler** and some standard **C libraries** to run.
+The function is written in C language and thus needs the **C compiler** and some standard **C libraries** to run.
 
 ### Instructions
 
-**1. Compiling the function**
+- Pull files ↙️
+```
+$ git clone https://github.com/juwkim/get_next_line
+```
 
-```shell
+- To make compile ↙️
+```
 cc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_utils.c "main.c"
 ```
 
-**2. Using it in your code**
-
-To use the function in your code, simply include its header:
+- To use get_next_line in your code ↙️
 
 ```C
 #include "get_next_line.h"
