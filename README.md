@@ -55,7 +55,6 @@ cc -Wall -Werror -Wextra -D BUFFER_SIZE=<size> get_next_line.c get_next_line_uti
 ```
 
 - To use get_next_line in your code ↙️
-
 ```C
 #include "get_next_line.h"
 ```
